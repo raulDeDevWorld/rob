@@ -7,7 +7,7 @@ import Feedback from '@/components/FeedbackCard';
 import { useState } from "react";
 import { MessageSquare, Users, Award, Globe2, Video, BookOpen, Headphones, Brain } from 'lucide-react';
 
-import { AcademicCapIcon, CalendarIcon, ViewBoardsIcon, ClockIcon } from '@heroicons/react/24/outline';
+
 
 export default function Home() {
   const [activeForm, setActiveForm] = useState(1);
@@ -259,19 +259,19 @@ export default function Home() {
                     <div className="max-w-sm mx-auto bg-white p-6 rounded-lg shadow-md">
                       <ul className="space-y-4">
                         <li className="flex items-center space-x-4">
-                          <AcademicCapIcon className="h-6 w-6 text-blue-500" />
+                          
                           <span className="text-lg font-medium">Grupo</span>
                         </li>
                         <li className="flex items-center space-x-4">
-                          <CalendarIcon className="h-6 w-6 text-green-500" />
+                          
                           <span className="text-lg font-medium">Calendario</span>
                         </li>
                         <li className="flex items-center space-x-4">
-                          <ViewBoardsIcon className="h-6 w-6 text-yellow-500" />
+                          
                           <span className="text-lg font-medium">Pizarra</span>
                         </li>
                         <li className="flex items-center space-x-4">
-                          <ClockIcon className="h-6 w-6 text-red-500" />
+                          
                           <span className="text-lg font-medium">Reloj</span>
                         </li>
                       </ul>
