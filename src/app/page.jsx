@@ -254,7 +254,7 @@ export default function Home() {
             {activeForm === 1 && (
               <div className="form1">
                 <h2 className="text-2xl mb-4 text-black">Individual</h2>
-                <form className="space-y-4 grid grid-cols-2">
+                <form className="space-y-4 md:grid md:grid-cols-2">
                   <div>
                     <div className="max-w-sm mx-auto bg-white p-6 rounded-lg shadow-md">
                       <ul className="space-y-4">
